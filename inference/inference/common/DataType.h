@@ -15,9 +15,9 @@ namespace w2l {
 namespace streaming {
 
 enum class DataType : uint32_t {
-  UNINITIALIZED,
-  FLOAT,
-  FLOAT16,
+  UNINITIALIZED = 0,
+  FLOAT = 1,
+  FLOAT16 = 2,
 };
 
 bool dataTypeIsValid(DataType type);
